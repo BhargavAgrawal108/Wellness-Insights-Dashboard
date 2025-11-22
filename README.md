@@ -65,7 +65,7 @@ Applied layout design for minimalistic, modern UI
 
 🖼️ **Dashboard Screenshots**
 
-https://github.com/YourRepo/Screenshots/Wellness_Dashboard_Main.png?raw=true
+**https://github.com/YourRepo/Screenshots/Wellness_Dashboard_Main.png?raw=true**
 
 🛠️ **Tools & Technologies**
 
