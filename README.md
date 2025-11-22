@@ -37,6 +37,7 @@ Provide interactive slicers for deeper personalized insights
 Present fitness progression visually across multiple charts
 
 📊 **Dashboard Highlights**
+
 Section	Description
 Hydration Score	Compares daily intake vs. recommended ideal level with color-coded indicators.
 BMI Health Check	Shows actual vs. ideal BMI with health recommendation.
