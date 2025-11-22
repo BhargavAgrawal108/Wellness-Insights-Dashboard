@@ -1,5 +1,5 @@
-🧘‍♂️ Wellness & Fitness Insights Dashboard – Power BI Project
-👋 About Me
+🧘‍♂️ **Wellness & Fitness Insights Dashboard – Power BI Project**
+👋 **About Me**
 
 Hey! I’m Bhargav Agrawal — a Finance professional by education and a data storyteller by passion.
 I love transforming raw data into meaningful insights that help people make better decisions — whether in finance, health, or daily habits.
@@ -7,7 +7,7 @@ I love transforming raw data into meaningful insights that help people make bett
 With experience in FP&A, Power BI, Excel, DAX, and data visualization, I design dashboards that simplify complex information into clear, actionable insights.
 Beyond finance, I enjoy exploring personal wellness, fitness tracking, and building dashboards that help improve everyday life.
 
-🛒 Buy This
+🛒 **Buy This**
 
 If you want to support my work or explore more of my dashboards/templates:
 
@@ -15,14 +15,14 @@ If you want to support my work or explore more of my dashboards/templates:
 
 🔗 https://bhargav108.gumroad.com/l/qqpee
 
-🧘‍♀️ Wellness & Fitness Dashboard
-📌 Overview
+🧘‍♀️ **Wellness & Fitness Dashboard**
+📌 **Overview**
 
 The Wellness & Fitness Dashboard is an advanced Power BI project designed to track daily lifestyle metrics such as hydration, BMI, calories burned, nutrition, meal health score, and workout level.
 
 It helps users monitor their overall wellness score and develop healthier habits through data-driven insights.
 
-🎯 Objectives
+🎯 **Objectives**
 
 Track Hydration Level, BMI Health Check, and Calorie Burn Analysis
 
@@ -36,7 +36,7 @@ Provide interactive slicers for deeper personalized insights
 
 Present fitness progression visually across multiple charts
 
-📊 Dashboard Highlights
+📊 **Dashboard Highlights**
 Section	Description
 Hydration Score	Compares daily intake vs. recommended ideal level with color-coded indicators.
 BMI Health Check	Shows actual vs. ideal BMI with health recommendation.
@@ -47,7 +47,8 @@ Calories by Diet Type	Bar chart comparing various diet categories (Keto, Vegan, 
 Workout Level	Tracks fitness levels across Beginner, Intermediate, and Advanced.
 Calories by Meal Type	Horizontal chart for Breakfast, Lunch, Dinner, and Snacks.
 Universal Filters	Name, Diet Type, Meal Type, Workout Type, Muscle Type.
-🔍 Key Learnings & Techniques
+
+🔍 **Key Learnings & Techniques**
 
 Built custom DAX logic for Hydration Status, BMI Check, Meal Score, and Calorie Analytics
 
@@ -61,15 +62,11 @@ Used dynamic visuals and performance-optimized DAX measures
 
 Applied layout design for minimalistic, modern UI
 
-🖼️ Dashboard Screenshots
-
-(Add your images here once pushed to GitHub)
-
-Example:
+🖼️ **Dashboard Screenshots**
 
 https://github.com/YourRepo/Screenshots/Wellness_Dashboard_Main.png?raw=true
 
-🛠️ Tools & Technologies
+🛠️ **Tools & Technologies**
 
 Power BI Desktop
 
@@ -79,7 +76,7 @@ DAX (Data Analysis Expressions)
 
 Excel / CSV Data Sources
 
-🧱 Data Model
+🧱 **Data Model**
 
 Fact Table: Daily Health Metrics (Hydration, Calories, Meals, BMI, Fat%)
 
@@ -112,18 +109,10 @@ Calories Burn
 Calories Burn Status =
 IF([Calories Burn] > [Calories In], "High", "Low")
 
-🤝 Connect With Me
+🤝 **Connect With Me**
 
 🔗 LinkedIn: https://www.linkedin.com/in/bhargav-agrawal-6b60b01a1/
 
 📧 Email: Bhargav108108@gmail.com
 
 ✨ Thanks for exploring this project! Your feedback, suggestions, and collaborations are always welcome.
-
-If you'd like, I can also:
-
-✅ Add badges
-✅ Create a banner image
-✅ Add sections like Installation, Files Included, Future Enhancements, etc.
-
-Just tell me!
