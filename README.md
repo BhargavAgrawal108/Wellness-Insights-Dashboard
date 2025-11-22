@@ -11,9 +11,7 @@ Beyond finance, I enjoy exploring personal wellness, fitness tracking, and build
 
 If you want to support my work or explore more of my dashboards/templates:
 
-🔗 https://bhargav108.gumroad.com/l/cahdh
-
-🔗 https://bhargav108.gumroad.com/l/qqpee
+🔗 https://bhargav108.gumroad.com/l/hqpfdx
 
 🧘‍♀️ **Wellness & Fitness Dashboard**
 📌 **Overview**
