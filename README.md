@@ -1,53 +1,129 @@
-Wellness & Fitness Dashboard 🏋️‍♂️💧
+🧘‍♂️ Wellness & Fitness Insights Dashboard – Power BI Project
+👋 About Me
 
-A visually rich, insight-driven Power BI dashboard designed to help track overall wellness, nutritional intake, calorie balance, hydration levels, and workout performance.
+Hey! I’m Bhargav Agrawal — a Finance professional by education and a data storyteller by passion.
+I love transforming raw data into meaningful insights that help people make better decisions — whether in finance, health, or daily habits.
 
+With experience in FP&A, Power BI, Excel, DAX, and data visualization, I design dashboards that simplify complex information into clear, actionable insights.
+Beyond finance, I enjoy exploring personal wellness, fitness tracking, and building dashboards that help improve everyday life.
+
+🛒 Buy This
+
+If you want to support my work or explore more of my dashboards/templates:
+
+🔗 https://bhargav108.gumroad.com/l/cahdh
+
+🔗 https://bhargav108.gumroad.com/l/qqpee
+
+🧘‍♀️ Wellness & Fitness Dashboard
 📌 Overview
 
-The Wellness & Fitness Dashboard provides a complete picture of user health metrics by combining multiple data sources such as meal nutrition, workout logs, and body measurements.
-It is designed for individuals, fitness trainers, and wellness analysts who want a simple yet powerful way to monitor daily health trends.
+The Wellness & Fitness Dashboard is an advanced Power BI project designed to track daily lifestyle metrics such as hydration, BMI, calories burned, nutrition, meal health score, and workout level.
 
-✨ Key Features
-🍽 Nutrition Insights
+It helps users monitor their overall wellness score and develop healthier habits through data-driven insights.
 
-Sodium, Cholesterol, Sugar, and Protein per meal
+🎯 Objectives
 
-Meal health score visualized with donut charts
+Track Hydration Level, BMI Health Check, and Calorie Burn Analysis
 
-Diet-type calorie comparison
+Monitor Meal Health Score using nutrition metrics
 
-Calories by meal type (Breakfast / Lunch / Dinner / Snack)
+Analyze calories by Diet Type, Meal Type, and Daily Intake
 
-💧 Hydration Status
+Display user-friendly KPIs with dynamic color-coded evaluations
 
-Dynamic hydration scoring
+Provide interactive slicers for deeper personalized insights
 
-Smart indicator for Excellent / Good / Low hydration
+Present fitness progression visually across multiple charts
 
-Uses custom logic + color-coded output (e.g., 💧 in #2999AA)
+📊 Dashboard Highlights
+Section	Description
+Hydration Score	Compares daily intake vs. recommended ideal level with color-coded indicators.
+BMI Health Check	Shows actual vs. ideal BMI with health recommendation.
+Calories Burn Panel	Highlights calories consumed vs. calories burned.
+Average Fat%	Displays overall fat intake trend.
+Meal Health Score	Donut chart showing healthy, moderate, and unhealthy meals.
+Calories by Diet Type	Bar chart comparing various diet categories (Keto, Vegan, Paleo, etc.).
+Workout Level	Tracks fitness levels across Beginner, Intermediate, and Advanced.
+Calories by Meal Type	Horizontal chart for Breakfast, Lunch, Dinner, and Snacks.
+Universal Filters	Name, Diet Type, Meal Type, Workout Type, Muscle Type.
+🔍 Key Learnings & Techniques
 
-🔥 Calorie Tracking
+Built custom DAX logic for Hydration Status, BMI Check, Meal Score, and Calorie Analytics
 
-Calories consumed vs burned
+Created emoji-based health indicators styled with Power BI font colors
 
-Workout level classification (Advanced / Intermediate / Beginner)
+Designed a premium UI theme with color #2999AA for a clean wellness look
 
-⚕️ BMI Check
+Implemented multi-category slicers for higher personalization
 
-Shows Actual BMI vs Ideal BMI
+Used dynamic visuals and performance-optimized DAX measures
 
-Health message indicator (Good / Needs Improvement)
+Applied layout design for minimalistic, modern UI
 
-📊 Dashboard Preview
+🖼️ Dashboard Screenshots
 
-Add dashboard screenshot here once uploaded.
+(Add your images here once pushed to GitHub)
 
-🛠️ Technologies Used
+Example:
 
-Power BI
+https://github.com/YourRepo/Screenshots/Wellness_Dashboard_Main.png?raw=true
 
-DAX Measures
+🛠️ Tools & Technologies
 
-Custom Icons & Color Harmonization (#2999AA theme)
+Power BI Desktop
 
-Data Modeling (Fact/Dimension layers)
+Power Query Editor
+
+DAX (Data Analysis Expressions)
+
+Excel / CSV Data Sources
+
+🧱 Data Model
+
+Fact Table: Daily Health Metrics (Hydration, Calories, Meals, BMI, Fat%)
+
+Dimension Tables: Date, Food Category, Meal Type, Workout Type, User Details
+
+Star schema structure optimizes visual performance and slicer filtering.
+
+📐 Key DAX Measures
+Hydration Status
+Hydration_Status = 
+VAR water = Final_data[Water_Intake (liters)]
+VAR avgWater = [Average water Intake]
+RETURN
+SWITCH(
+    TRUE(),
+    water >= avgWater * 1.20, "<span style='color:#2999AA'>💧 Excellent Hydration</span>",
+    water >= avgWater,        "😊 Good Hydration",
+    water < avgWater,         "⚠️ Low Hydration",
+    "–"
+)
+
+BMI Check
+BMI Check =
+VAR actual = [Actual BMI]
+VAR ideal  = [Ideal BMI]
+RETURN 
+IF(actual <= ideal, "↑ Good Health", "↓ Needs Attention")
+
+Calories Burn
+Calories Burn Status =
+IF([Calories Burn] > [Calories In], "High", "Low")
+
+🤝 Connect With Me
+
+🔗 LinkedIn: https://www.linkedin.com/in/bhargav-agrawal-6b60b01a1/
+
+📧 Email: Bhargav108108@gmail.com
+
+✨ Thanks for exploring this project! Your feedback, suggestions, and collaborations are always welcome.
+
+If you'd like, I can also:
+
+✅ Add badges
+✅ Create a banner image
+✅ Add sections like Installation, Files Included, Future Enhancements, etc.
+
+Just tell me!
